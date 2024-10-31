@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game zone</title>
+    <link rel="stylesheet"href="style.css"/>
+</head>
+<body>
+    <h1> Game:Rock paper & seccisor</h1>
+    <button onclick="Math.random()
+    let a=Math.random()
+    let computerMove=``
+    let result=``
+    if(a>0 && a<1/3){
+        computerMove='rock';
+    }
+    else if(a>1/3 && a<1/2){
+        computerMove='paper';
+    }
+    else{
+        computerMove='seccisor';
+    }
+    //result
+    if(computerMove=='rock'){
+        result='tie';
+    }
+    else if(computerMove=='paper'){
+        result='lose'
+    }
+    else{
+        result='win'
+    }alert(`you choose rock.computer choose: ${computerMove}.result:
+    ${result}`)">
+        Rock
+    </button>
+    <button onclick="Math.random()
+    let b=Math.random()
+    let move=``
+    let result1=``
+    if(b>0 && b<1/3){
+        move='rock'
+    }
+   else if(b>1/3 && b<1/2){
+        move='paper'
+    }
+    else{
+        move='secissor'
+    }
+    //result
+    if(move=='rock'){
+        result1='win'
+    }
+    else if(move=='paper'){
+        result1='tie'
+    }
+    else{
+        result1='lose'
+    }
+    alert(`you choose paper.computer choose: ${move}.result:${result1}`)">
+        paper
+    </button>
+    <button onclick="Math.random()
+    let c=Math.random()
+    let move2=``
+    let result2=``
+    if(c>0 && c<1/3){
+        move2='rock'
+
+    }
+  else if(c>1/3 && c<1/2){
+    move2='paper'
+  }
+  else{
+    move2=seccisor
+  }
+  //result
+  if(move2=='rock'){
+    result2='lose'
+  }
+  else if(move2=='paper'){
+result2='win'
+  }
+  else{
+    result2='tie'
+  }
+  alert(`you choose seccisor.computer choose:${move2}.result: ${result2}`)">
+        Seccisor
+    </button>
+</body>
+<script></script>
+
+</html>

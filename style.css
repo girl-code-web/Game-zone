@@ -1,0 +1,14 @@
+button{
+    border: 2px solid;
+    background-color: darkgray;
+    color:black;
+    height:40px;
+    font-size: medium;
+}
+button:hover{
+    color:darkgreen;
+}
+h1{
+    color:darkcyan;
+
+}
